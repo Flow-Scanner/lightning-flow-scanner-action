@@ -1,4 +1,4 @@
-name: Run Flow Scanner
+name: Flow Scanner
 description: A GitHub Action to scan Salesfoce Flows(.flow files).
 inputs:
   GITHUB_TOKEN:

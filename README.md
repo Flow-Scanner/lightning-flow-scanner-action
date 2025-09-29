@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Get Latest Version
         uses: actions/checkout@v4
-      - name: Run Flow Scanner
+      - name: Flow Scanner
         uses: RubenHalman/lightning-flow-scanner-ga@1.1.0
         with:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
